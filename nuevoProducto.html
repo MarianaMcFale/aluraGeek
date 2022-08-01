@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto Nuevo</title>
+    <link rel="icon" type="image/png" href="./img/Joystick.png" />
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/root.css">
+    <link rel="stylesheet" href="CSS/Nuevos Productos/header.css">
+    <link rel="stylesheet" href="CSS/Nuevos Productos/agregarProductos.css">
+    <link rel="stylesheet" href="CSS/Index/about.css">
+    <link rel="stylesheet" href="CSS/Index/banner.css">
+    <link rel="stylesheet" href="CSS/Index/productos.css">
+    <link rel="stylesheet" href="CSS/Index/contacto.css">
+    <link rel="stylesheet" href="CSS/Index/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header__contenido">
+            <div class="header__contenido__logo">
+                <img src="img/Joystick and Alura.png" alt="Logo Alura Geek" class="header__contenido__imagen">
+            </div>
+            <div class="header__contenido__buscarylogin">
+                <div class="header__contenido__buscarylogin__contenedorBuscar">
+                <img src="img/Lupa.png" alt="" class="header__contenido__buscarylogin__imagen">
+                <img src="img/lupa-clara.png" alt="" class="header__contenido__buscarylogin__imagen2">
+                <input class="header__contenido__buscarylogin--barra" type="search" placeholder="¿Qué deseas buscar?">
+                </div>
+                <button class="header__contenido__buscarylogin__botonMenu">Menú Administrador</button>
+            </div>
+        </div>
+    </header>
+    <section class="agregarProductos">
+        <div class="agregarProductos__contenedor">
+            <h3 class="agregarProductos__contenedor--titulo">Agregar nuevo producto</h3>
+            <input type="text" class="agregarProductos__contenedor--input" id="url" placeholder="URL de la imagen">
+            <input type="text" class="agregarProductos__contenedor--input" id="categoria" placeholder="Categoría">
+            <input type="text" class="agregarProductos__contenedor--input" id="nombre" placeholder="Nombre del Producto" minlength="2" maxlength="20">
+            <input type="text" class="agregarProductos__contenedor--input" id="precio" placeholder="Precio del producto">
+            <textarea name="Descripcion" cols="30" rows="10" id="descripcion" class="agregarProductos__contenedor--descripcion" placeholder="Descripcion del producto" minlength="2" maxlength="150"></textarea>
+            <button class="agregarProductos__contenedor--boton">Agregar Producto</button>
+        </div>
+    </section>   
+    <section class="aboutContacto">
+        <div class="aboutContacto--contenedor">
+            <div class="aboutContacto__about">
+                <div class="aboutContacto__about__logo">
+                    <img src="img/Joystick and Alura.png" alt="Logo Alura Geek" class="aboutContacto__about__logo--img">
+                </div>
+                <div class="aboutContacto__about__links">
+                    <a href="##" class="aboutContancto__about__links__link">Quienes somos</a>
+                    <a href="##" class="aboutContancto__about__links__link">Política de privacidad</a>
+                    <a href="##" class="aboutContancto__about__links__link">Programa de fidelidad</a>
+                    <a href="##" class="aboutContancto__about__links__link">Nuestras tiendas</a>
+                    <a href="##" class="aboutContancto__about__links__link">Quiero ser franquiciado</a>
+                    <a href="##" class="aboutContancto__about__links__link">Anuncie aquí</a>
+                </div>
+            </div>
+            <div class="aboutContacto__contacto">
+                <h3 class="aboutContacto__contacto__titulo">Hable con nosotros</h3>
+                <form action="" class="aboutContacto__contacto__form">
+                    <div class="aboutContacto__contacto__form__mensajeUsuario">
+                        <p class="aboutContacto__contacto__form__mensajeUsuario--msj">Su mensaje ha sido enviado</p>
+                    </div>
+                    <input type="text" class="aboutContacto__contacto__form__nombre" placeholder="Nombre">
+                    <textarea type="text" class="aboutContacto__contacto__form__mensaje" placeholder="Escribe tu mensaje"></textarea>
+                </form>
+                <button type="submit" class="aboutContacto__contacto__boton">Enviar Mensaje</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <p class="footer__contenedor__texto">Desarrollado por McFale</p>
+            <p class="footer__contenedor__texto">2022</p>
+        </div>
+    </footer>
+
+        
+</body>
+</html>
